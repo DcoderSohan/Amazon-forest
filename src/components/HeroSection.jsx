@@ -46,7 +46,7 @@ const HeroSection = () => {
               />
             </div>
           </div>
-          <div className="img-2 flex flex-col gap-4 mt-3 sm:justify-center sm:items-center">
+          <div className="img-2 flex flex-col gap-4 mt-4 sm:justify-center sm:items-center">
             <div className="grid-elements w-52 object-cover">
               <img
                 src="https://files.worldwildlife.org/wwfcmsprod/images/Jaguar_GPN7474/hero_small/63qidi36cn_Responsible_Forestry_8.10.2012_Biodiversiry_Loss_HI_7474.jpg"

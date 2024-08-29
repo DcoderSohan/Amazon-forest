@@ -12,10 +12,17 @@ const About = () => {
           <img
             src="https://img.freepik.com/premium-photo/lungs-like-forest-nature-dark-background_927844-474.jpg"
             alt=""
+            className="rounded-lg"
           />
+          <div className="main-name bg-green-950 p-6 rounded-lg -mt-10 relative z-10 w-fit m-auto">
+          <div className="name text-white border-2 border-white p-4 text-center rounded-lg">
+            Amazon Forest
+          </div>
+          </div>
         </div>
         <div className="right w-[60%] space-y-10">
-          <h1 className="text-2xl">About</h1>
+          <h1 className="text-[40px]">About</h1>
+          <hr/>
           <p>
             The Amazon Rainforest, often called the "lungs of the Earth," plays
             a vital role in global oxygen production and carbon dioxide

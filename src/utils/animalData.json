@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Jaguar",
+      "scientific_name": "Panthera onca",
+      "image": "https://img.freepik.com/free-photo/beautiful-endangered-american-jaguar-nature-habitat-panthera-onca-wild-brasil-brasilian-wildlife-pantanal-green-jungle-big-cats_475641-2191.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
+    },
+    {
+      "name": "Harpy Eagle",
+      "scientific_name": "Harpia harpyja",
+      "image": "https://img.freepik.com/free-photo/beautiful-hawk-nature_23-2151273520.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
+    },
+    {
+      "name": "Green Anaconda",
+      "scientific_name": "Eunectes murinus",
+      "image": "https://img.freepik.com/free-photo/digital-art-snake-illustration_23-2151674431.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
+    },
+    {
+      "name": "Capybara",
+      "scientific_name": "Hydrochoerus hydrochaeris",
+      "image": "https://img.freepik.com/free-photo/view-wild-rodent_23-2150793230.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
+    },
+    {
+      "name": "Poison Dart Frog",
+      "scientific_name": "Dendrobatidae",
+      "image": "https://img.freepik.com/free-photo/view-frog-nature_23-2150453178.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
+    },
+    {
+      "name": "Piranha",
+      "scientific_name": "Pygocentrus nattereri",
+      "image": "https://example.com/piranha.jpg"
+    },
+    {
+      "name": "Sloth",
+      "scientific_name": "Folivora",
+      "image": "https://example.com/sloth.jpg"
+    },
+    {
+      "name": "Amazon River Dolphin",
+      "scientific_name": "Inia geoffrensis",
+      "image": "https://example.com/amazon-river-dolphin.jpg"
+    },
+    {
+      "name": "Giant Otter",
+      "scientific_name": "Pteronura brasiliensis",
+      "image": "https://example.com/giant-otter.jpg"
+    },
+    {
+      "name": "Macaw",
+      "scientific_name": "Ara",
+      "image": "https://example.com/macaw.jpg"
+    }
+  ]
+  

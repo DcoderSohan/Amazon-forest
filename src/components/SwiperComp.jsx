@@ -1,25 +1,18 @@
-// SwiperComponent.js
-import React from "react";
+import React, { useState, useEffect } from "react";
+import animalData from "./../utils/animalData.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
 
 const SwiperComponent = () => {
-  const cards = [
-    {
-      id: 1,
-      title: "Card 1",
-      image: "https://via.placeholder.com/150",
-      description: "Description for card 1",
-    },
-    {
-      id: 2,
-      title: "Card 2",
-      image: "https://via.placeholder.com/150",
-      description: "Description for card 2",
-    },
-    // Add more cards as needed
-  ];
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetch({ animalData })
+      .then((response) => response.json())
+      .then((jsonData) => setData(jsonData))
+      .catch((error) => console.error("Error fetching data:", error));
+  }, []);
 
   return (
     <Swiper
@@ -31,14 +24,17 @@ const SwiperComponent = () => {
       }}
       modules={[Autoplay]}
     >
-      <SwiperSlide className="bg-green-600">Slide 1</SwiperSlide>
-      <SwiperSlide className="bg-green-600">Slide 2</SwiperSlide>
-      <SwiperSlide className="bg-green-600">Slide 3</SwiperSlide>
-      <SwiperSlide className="bg-green-600">Slide 4</SwiperSlide>
-      <SwiperSlide className="bg-green-600">Slide 1</SwiperSlide>
-      <SwiperSlide className="bg-green-600">Slide 2</SwiperSlide>
-      <SwiperSlide className="bg-green-600">Slide 3</SwiperSlide>
-      <SwiperSlide className="bg-green-600">Slide 4</SwiperSlide>
+      {animalData.map((item,i) => (
+        <SwiperSlide key={i}>
+          <div className="flex flex-wrap gap-4 justify-center p-8 text-black">
+           <div className="card">
+            <img src={item.image} alt="image" />
+            <span>{item.name}</span>
+            <span>{item.scientific_name}</span>
+           </div>
+          </div>
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 };

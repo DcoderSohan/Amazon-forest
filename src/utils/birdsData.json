@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Harpy Eagle",
+    "scientific_name": "Harpia harpyja",
+    "image": "https://img.freepik.com/free-photo/beautiful-hawk-nature_23-2151273520.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
+  },
+  {
+    "name": "Scarlet Macaw",
+    "scientific_name": "Ara macao",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_PlIEOuscbxApisDNqcv53NWmTug7apsWyGogXJKtWWmeBZUz_eftCEkeNPHCJcAhdWk&usqp=CAU"
+  },
+  {
+    "name": "Hoatzin",
+    "scientific_name": "Opisthocomus hoazin",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnuKK3bDtvmgshKMh-KWAt7baX9Dr0ynaWbw&s"
+  },
+  {
+    "name": "Toucan",
+    "scientific_name": "Ramphastos toco",
+    "image": "https://www.pbs.org/wnet/nature/files/2022/05/zdenek-machacek-eqXiLNfZDc0-unsplash-scaled-e1653519355914-1280x720.jpg"
+  },
+  {
+    "name": "Amazonian Royal Flycatcher",
+    "scientific_name": "Onychorhynchus coronatus",
+    "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2021/12/02100057/Birds_Royal-Flycatcher-Onychorhynchus-coronatus.jpeg"
+  },
+  {
+    "name": "Amazon Kingfisher",
+    "scientific_name": "Chloroceryle amazona",
+    "image": "https://www.shutterstock.com/image-photo/amazon-kingfisher-chloroceryle-amazona-sitting-260nw-2378212581.jpg"
+  },
+  {
+    "name": "Greater Rhea",
+    "scientific_name": "Rhea americana",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0CZxXFUSlBjQUDes2ew6v-FYDa_SJyGfacw&s"
+  },
+  {
+    "name": "Red-and-green Macaw",
+    "scientific_name": "Ara chloropterus",
+    "image": "https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2023/09/5ac221142eb24f12a14d2696ae9e9d07.png?size=*:900"
+  },
+  {
+    "name": "Blue-and-yellow Macaw",
+    "scientific_name": "Ara ararauna",
+    "image": "https://media.istockphoto.com/id/614055522/photo/blue-and-yellow-macaw-in-flight.jpg?s=612x612&w=0&k=20&c=iuX-lAnvVGNg-D6OdJ9NaoDZKU4oD8Sqwo5xffqznWA="
+  },
+  {
+    "name": "Black-collared Hawk",
+    "scientific_name": "Busarellus nigricollis",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGo3_H_pqp9C46r_jxUHInNi0IcAqE-_0Z0Q&s"
+  }
+]

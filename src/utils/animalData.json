@@ -1,53 +1,42 @@
 [
-    {
-      "name": "Jaguar",
-      "scientific_name": "Panthera onca",
-      "image": "https://img.freepik.com/free-photo/beautiful-endangered-american-jaguar-nature-habitat-panthera-onca-wild-brasil-brasilian-wildlife-pantanal-green-jungle-big-cats_475641-2191.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
-    },
-    {
-      "name": "Harpy Eagle",
-      "scientific_name": "Harpia harpyja",
-      "image": "https://img.freepik.com/free-photo/beautiful-hawk-nature_23-2151273520.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
-    },
-    {
-      "name": "Green Anaconda",
-      "scientific_name": "Eunectes murinus",
-      "image": "https://img.freepik.com/free-photo/digital-art-snake-illustration_23-2151674431.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
-    },
-    {
-      "name": "Capybara",
-      "scientific_name": "Hydrochoerus hydrochaeris",
-      "image": "https://img.freepik.com/free-photo/view-wild-rodent_23-2150793230.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
-    },
-    {
-      "name": "Poison Dart Frog",
-      "scientific_name": "Dendrobatidae",
-      "image": "https://img.freepik.com/free-photo/view-frog-nature_23-2150453178.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
-    },
-    {
-      "name": "Piranha",
-      "scientific_name": "Pygocentrus nattereri",
-      "image": "https://example.com/piranha.jpg"
-    },
-    {
-      "name": "Sloth",
-      "scientific_name": "Folivora",
-      "image": "https://example.com/sloth.jpg"
-    },
-    {
-      "name": "Amazon River Dolphin",
-      "scientific_name": "Inia geoffrensis",
-      "image": "https://example.com/amazon-river-dolphin.jpg"
-    },
-    {
-      "name": "Giant Otter",
-      "scientific_name": "Pteronura brasiliensis",
-      "image": "https://example.com/giant-otter.jpg"
-    },
-    {
-      "name": "Macaw",
-      "scientific_name": "Ara",
-      "image": "https://example.com/macaw.jpg"
-    }
-  ]
-  
+  {
+    "name": "Jaguar",
+    "scientific_name": "Panthera onca",
+    "image": "https://img.freepik.com/free-photo/beautiful-endangered-american-jaguar-nature-habitat-panthera-onca-wild-brasil-brasilian-wildlife-pantanal-green-jungle-big-cats_475641-2191.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
+  },
+  {
+    "name": "Green Anaconda",
+    "scientific_name": "Eunectes murinus",
+    "image": "https://img.freepik.com/free-photo/digital-art-snake-illustration_23-2151674431.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
+  },
+  {
+    "name": "Capybara",
+    "scientific_name": "Hydrochoerus hydrochaeris",
+    "image": "https://img.freepik.com/free-photo/view-wild-rodent_23-2150793230.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
+  },
+  {
+    "name": "Poison Dart Frog",
+    "scientific_name": "Dendrobatidae",
+    "image": "https://img.freepik.com/free-photo/view-frog-nature_23-2150453178.jpg?uid=R161225708&ga=GA1.1.307850760.1725085360&semt=ais_hybrid"
+  },
+  {
+    "name": "Piranha",
+    "scientific_name": "Pygocentrus nattereri",
+    "image": "https://i.natgeofe.com/k/bf926aba-350c-4706-b819-b9d006307818/red-bellied-piranha-bellies.jpg"
+  },
+  {
+    "name": "Sloth",
+    "scientific_name": "Folivora",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkF0N6o9XNFg8sYyTURXAlw52FKmQUDB02Pg&s"
+  },
+  {
+    "name": "Amazon River Dolphin",
+    "scientific_name": "Inia geoffrensis",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSU2MZIbmrz-z3MhYHTiriz2OXVfGBsh-mVA&s"
+  },
+  {
+    "name": "Giant Otter",
+    "scientific_name": "Pteronura brasiliensis",
+    "image": "https://troncotambopata.com/wp-content/uploads/2023/06/Tour-Puerto-Maldonado-5D-4N-Tronco-Tambopata.webp"
+  }
+]

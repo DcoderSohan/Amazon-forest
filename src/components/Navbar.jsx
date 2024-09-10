@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-
+import logo from "./../assets/images/logo.png"
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -11,17 +11,22 @@ const Navbar = () => {
 
   const navItems = [
     { label: "Home", href: "/" },
-    { label: "About", href: "#" },
-    { label: "Animals", href: "#" },
-    { label: "Birds", href: "#" },
-    { label: "Gallery", href: "#" },
+    { label: "About", href: "#about" },
+    { label: "Animals", href: "#animals" },
+    { label: "Birds", href: "#birds" },
+    { label: "Gallery", href: "#gallery" },
   ];
+
   return (
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <img className="h-10 w-10 mr-2" src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs5YmyyRsE3nbKNOUE8oLhq03_Ek6ziz7xMw&s"} alt="Logo" />
+            <img
+              className="h-10 w-10 mr-2"
+              src={logo}
+              alt="Logo"
+            />
             <span className="text-xl tracking-tight">Amazon</span>
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
@@ -42,7 +47,9 @@ const Navbar = () => {
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
-                  <a href={item.href}>{item.label}</a>
+                  <a href={item.href} onClick={toggleNavbar}>
+                    {item.label}
+                  </a>
                 </li>
               ))}
             </ul>

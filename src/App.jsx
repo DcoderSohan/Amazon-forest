@@ -2,7 +2,6 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import SwiperComponent from "./components/SwiperComp";
-import BirdComponent from "./components/BirdComponent";
 
 const App = () => {
   return (
@@ -12,7 +11,6 @@ const App = () => {
         <HeroSection />
         <About />
         <SwiperComponent />
-        <BirdComponent />
       </div>
     </>
   );

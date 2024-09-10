@@ -7,7 +7,7 @@ import { Autoplay } from "swiper/modules"; // Only import Autoplay module
 
 const SwiperComponent = () => {
   return (
-    <div className="p-4 h-full">
+    <div className="p-4 h-full relative">
       {/* Animal Swiper */}
       <div id="animals" className="animals p-10">
         <div className="heading relative -z-10">

@@ -2,8 +2,11 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import SwiperComponent from "./components/SwiperComp";
+import Gallery from "./components/Gallery";
 
 const App = () => {
+
+  
   return (
     <>
       <Navbar />
@@ -11,6 +14,7 @@ const App = () => {
         <HeroSection />
         <About />
         <SwiperComponent />
+        <Gallery />
       </div>
     </>
   );

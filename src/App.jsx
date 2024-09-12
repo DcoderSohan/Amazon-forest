@@ -5,8 +5,6 @@ import SwiperComponent from "./components/SwiperComp";
 import Gallery from "./components/Gallery";
 
 const App = () => {
-
-  
   return (
     <>
       <Navbar />

@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import SwiperComponent from "./components/SwiperComp";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <About />
         <SwiperComponent />
         <Gallery />
+        <Footer />
       </div>
     </>
   );

@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div className="max-w-7xl mx-auto px-6 h-[100vh]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen overflow-x-hidden">
         <HeroSection />
         <About />
         <SwiperComponent />
